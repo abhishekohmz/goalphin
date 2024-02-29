@@ -1,0 +1,333 @@
+#nav1 img{
+    margin-left: 100px;
+    width: 250px;
+    
+}
+.row{
+    width: 100%;
+    padding-top: 60px;    
+}
+
+#banner_h1{
+    font-size: 90px;
+    text-align: left;
+    
+}
+#btn-1{
+    background-color: #7DDBA6;
+    width: 250px;
+    margin-top: 30px;
+    border-radius: 50px;
+    border-style:solid;
+    border-color: #b0ffd1;
+    border-width: 2px;
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+}
+#section2{
+    margin-top: 50px;
+
+}
+#section2 h1{
+font-size: 90px;
+}
+#section2 p{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#card{
+    border-radius: 50px;
+    width: 16rem;
+    height: 20rem;
+    border-style: ridge;
+    border-width: 5px;
+}
+#card img{
+padding-top: 70px;
+padding-left: 20px;
+padding-right: 20px;
+}
+#p{
+    font-size: 20px;
+}
+#Features{
+    margin-top: 50px;
+}
+h5{
+    font-weight: lighter;
+}
+#section2 #img{
+    margin-top: 100px;
+    width: 1400px;
+}
+#section5 #img{
+    margin-top: 100px;
+    width: 1400px;
+}
+.gradient-text {
+    background: linear-gradient(to bottom,#7DDBA6,#43B8A2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center
+  }
+  .box3 h1{
+    font-size: 90px;
+    margin-top: 90px;
+  }
+  .box3 p{
+    font-size: 35px;
+  }
+  /* #row3{
+    margin-top: -50px;
+  } */
+.box3 #arow{
+    width: 60px;
+    height: 60px;
+}
+#tag-chap{
+    width: 684px;
+    height: 50px;
+}
+#img3{
+    margin-top: -170px;
+    width: 828px;
+    height: 700px;
+}
+.box4 #img4{
+    width: 812.75px;
+    height: 533px;
+}
+.box4 #keynote{
+    width: 399px;
+    height: 483px;
+}
+.box4 h1{
+    font-size: 80px;
+    margin-top: 120px;
+}
+.arow2 img{
+    width: 684px;
+    height: 50px;
+    /* margin-top: 3%; */
+}
+#section6 img{
+    width: 459px;
+    height: 119px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#footer1{
+    margin-left: -150px;
+    display: flex; 
+    justify-content: left;
+}
+#footer2{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    /* flex-wrap: wrap; */
+}
+#footer3 p{
+    font-size: 30px;
+}
+#footer3 a{
+    font-size: 30px;
+}
+footer{
+    padding-top: 40px;
+}
+
+@media screen and (max-width:400px) {
+  #nav{
+  padding-top: 15px;
+  }
+  #nav1 img{
+width: 90px;
+margin-left: 10px;
+
+  }
+ #toggle{
+    width: 15px;
+ }
+ #banner_h1{
+    font-size: 30px;
+    text-align: center;
+    width: 284px;
+    height: 69px;
+}
+.col-md-6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+}
+.row{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 0;
+}
+ #btn-1{
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+
+ }
+ #btn{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+ }
+ .box2{
+    display: flex;
+    justify-content: center;
+ }
+ #img1{
+    width: 277px;
+    height: 138px;
+ }
+ #drop{
+ display: flex;
+ justify-content: right;
+ }
+ #section2 h1{
+    font-size: 30px;
+    text-align: center;
+ }
+ #section2 p{
+    margin: 10px;
+    text-align: left;
+    font-size: 10px;
+ }
+ #card{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    width: 336px;
+    height: 177px;
+    margin-left: 15px;
+ }
+ #card img{
+    width: 170px;
+    margin-top: -40px;
+
+    }
+   .col-md-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   #section2 #img{
+    margin-top: 20px;
+    width: 350px;
+}
+ #img3{
+    width: 277px;
+    height: 247px;
+    margin-top: 0px;
+}
+.box3 h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.box3 p{
+    font-size: 20px;
+    text-align: center;
+  }
+  .box3 #arow{
+    width: 26px;
+    height: 26px;
+}
+#tag-chap{
+    width: 240px;
+    height:02px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.arow{
+    display: flex;
+    justify-content: center;
+}
+#course{
+    display: flex;
+    flex-direction: row;
+}
+.box4 #img4{
+    width: 812.75px;
+    height: 533px;
+}
+.box4 #keynote{
+    width: 399px;
+    height: 483px;
+}
+.box4 h1{
+    font-size: 40px;
+    margin-top: 50px;
+}
+#image-container{
+    margin-top: -50px;
+}
+.arow2 img{
+    width: 684px;
+    height: 50px;
+    /* margin-top: 3%; */
+}
+.arow2 #img5{
+    width:234px;
+    height: 2px;
+}
+   #bootcamp{
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+   }
+   #section5 #img{
+    margin-top: 20px;
+    width: 350px;
+   }
+  #footer1{
+    display: flex;
+    margin-left: 10px;
+    justify-content: left;
+  }
+  #footer1 img{
+    width: 100px;
+  }
+   #site img{
+    width: 20px;
+}
+#footer2{
+    flex-wrap:wrap;
+    margin-top: 200px;
+    margin-left: -150px;
+    gap: 0px;
+    font-size:12px;
+}
+
+#footer3 p{
+    font-size: 10px;
+    margin-left: -30px;
+    margin-top: -15px;
+    margin-bottom: -10px;
+}
+#footer3 a,li{
+    font-size: 10px;
+    margin-right: -10px;
+    margin-top: 8px;
+}
+footer{
+    padding-top: 1px;
+}
+
+
+}
